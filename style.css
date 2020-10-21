@@ -1,0 +1,35 @@
+body *{
+    margin: 0;
+    outline: 1px solid black;
+    background-color: aquamarine;
+}
+.container{
+    width: 800px;
+    margin: 0 auto;
+}
+header{
+    height: 80px;
+}
+.container header{
+    color: red;
+
+}
+main{
+    height: 300px;
+    display: flex;
+}
+.left{
+    flex: 1;
+}
+.left ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.right{
+    flex: 2;
+}
+footer{
+    height: 120px;
+}
+
